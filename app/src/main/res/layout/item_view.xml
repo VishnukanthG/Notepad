@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:backgroundTint="@color/black"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/rounded_corner"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/titleoutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:text="My title" />
+
+    <TextView
+        android:id="@+id/descriptionoutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleoutput"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:text="descrption" />
+
+    <TextView
+        android:id="@+id/timeoutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionoutput"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        tools:text="Oct 05 2001" />
+
+</RelativeLayout>
